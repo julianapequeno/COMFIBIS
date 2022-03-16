@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="700.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="psojavarduino.PSOGWOController">
+   <children>
+      <ImageView fitHeight="700.0" fitWidth="1280.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/PSOGWO.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="PSO" layoutY="1.0" mnemonicParsing="false" onAction="#PSO" opacity="0.0" prefHeight="700.0" prefWidth="641.0" text="Button" />
+      <Button layoutX="640.0" layoutY="1.0" mnemonicParsing="false" opacity="0.0" prefHeight="701.0" prefWidth="641.0" text="Button" />
+      <Button layoutX="20.0" layoutY="579.0" mnemonicParsing="false" onAction="#Voltar" opacity="0.0" prefHeight="100.0" prefWidth="99.0" text="Button" />
+      <Button fx:id="transparente" layoutX="158.0" layoutY="-24.0" mnemonicParsing="false" opacity="0.0" text="Button" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="psojavarduino.TelaInicialController">
+   <children>
+      <BorderPane prefHeight="700.0" prefWidth="1280.0">
+         <left>
+            <Pane prefHeight="683.0" prefWidth="170.0" style="-fx-background-color: #39ff14;" BorderPane.alignment="CENTER" />
+         </left>
+         <right>
+            <Pane prefHeight="683.0" prefWidth="170.0" style="-fx-background-color: #39ff14;" BorderPane.alignment="CENTER" />
+         </right>
+         <center>
+            <Pane prefHeight="200.0" prefWidth="170.0" BorderPane.alignment="CENTER">
+               <children>
+                  <ImageView fitHeight="721.0" fitWidth="1328.0" layoutX="-170.0" layoutY="-4.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/Interface%20CoMFiBis%20(2)_page-0001.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="770.0" layoutY="326.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/Design%20sem%20nome%20(1).png" />
+                     </image>
+                  </ImageView>
+                  <Button layoutX="776.0" layoutY="339.0" mnemonicParsing="false" onMousePressed="#TrocarTela" opacity="0.0" prefHeight="124.0" prefWidth="137.0" />
+               </children>
+            </Pane>
+         </center>
+      </BorderPane>
+      <Button fx:id="botao" layoutX="79.0" layoutY="-26.0" mnemonicParsing="false" opacity="0.0" text="Button" />
+   </children>
+</AnchorPane>
